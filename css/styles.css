@@ -1,0 +1,164 @@
+:root {
+  --background-color: #ffffff;
+  --main-color: #212121;
+  --second-color: #757575;
+  --color-button: #2196f3;
+  --background-color-team: #f5f4fa;
+  --bcg-benefist: #f5f5f5;
+  --bcg-second: #2f303a;
+  --third-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+.nav-item  .studio {
+color: var(--color-button);
+}
+
+span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.logo-first {
+  color: var(--color-button);
+}
+
+.logo-second {
+  color: #000000;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  background-color: var(--background-color);
+}
+
+.nav-link {
+  color: var(--main-color);
+}
+
+.contacts {
+  color: var(--second-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-button);
+}
+
+/* Hero Section */
+
+.hero {
+  background-color: var(--bcg-second);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--color-button);
+}
+
+/* Benefits Section */
+
+.benefist {
+  background-color: var(--bcg-benefist);
+}
+
+.benefist-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.benefits-item-title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.benefits-item-text {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/* Comands */
+
+.comand {
+  background-color: var(--background-color-team);
+}
+
+.comand-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.comand-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--bcg-second);
+}
+
+.footer-map {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+}
+
+.footer-contact{
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--third-color); 
+}
