@@ -12,7 +12,9 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: 500;
   background: var(--background-color);
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -23,9 +25,10 @@ ul {
   list-style: none;
 }
 
+
 /* Header */
-.nav-item  .studio {
-color: var(--color-button);
+.nav-item .current {
+  color: var(--color-button);
 }
 
 span {
@@ -33,7 +36,6 @@ span {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
 
 .logo-first {
@@ -45,9 +47,7 @@ span {
 }
 
 .header {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   background-color: var(--background-color);
@@ -57,7 +57,7 @@ span {
   color: var(--main-color);
 }
 
-.contacts {
+.contact {
   color: var(--second-color);
 }
 
@@ -97,19 +97,17 @@ span {
   background-color: var(--bcg-benefist);
 }
 
-.benefist-title {
+.benefits-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
 .benefits-item-title {
   font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color);
 }
@@ -117,7 +115,6 @@ span {
 .benefits-item-text {
   font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--second-color);
 }
 
@@ -127,11 +124,17 @@ span {
   background-color: var(--background-color-team);
 }
 
+.comand-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--main-color);
+}
+
 .comand-text {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
@@ -139,7 +142,6 @@ span {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--second-color);
 }
 
@@ -152,13 +154,11 @@ span {
 .footer-map {
   font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--background-color);
 }
 
-.footer-contact{
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--third-color); 
+.footer-contact {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--third-color);
 }
