@@ -3,6 +3,7 @@
   --main-color: #212121;
   --second-color: #757575;
   --color-button: #2196f3;
+  --background-color-button:#188CE8;
   --background-color-team: #f5f4fa;
   --bcg-second: #2f303a;
   --third-color: rgba(255, 255, 255, 0.6);
@@ -23,6 +24,19 @@ a {
 ul {
   list-style: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} 
 
 /* Header */
 .nav-item .current {
@@ -81,21 +95,28 @@ span {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--background-color);
-  background-color: var(--color-button);
+  background: var(--color-button);
 }
 
 .button {
   cursor: pointer;
 }
+
+.button:hover,
+.button:focus{
+  background-color: var(--background-color-button);
+}
 /* Benefits Section */
 
 .benefits-item-title {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-color);
@@ -120,6 +141,10 @@ span {
 
 .comand {
   background-color: var(--background-color-team);
+}
+
+.comand-item{
+  background-color: var(--background-color);
 }
 
 .comand-title {
@@ -147,6 +172,7 @@ span {
 
 .footer {
   background-color: var(--bcg-second);
+  font-style: normal;
 }
 
 .footer-map {
@@ -167,6 +193,7 @@ span {
 /* Portfolio */
 
 .portfolio-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -193,4 +220,8 @@ span {
   font-size: 16px;
   line-height: 1.87;
   color: var(--second-color);
+}
+
+.adress{
+  font-style: normal;
 }
